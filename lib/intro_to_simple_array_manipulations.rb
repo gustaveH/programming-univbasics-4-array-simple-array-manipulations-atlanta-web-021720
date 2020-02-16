@@ -23,9 +23,7 @@ def using_shift (array)
 end
 
 def shift_with_args(array)
-  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  ice_cream_brands.shift
-  ice_cream_brands
+  array.shift (2)
 end 
 
 def using_concat(array1, array2)
@@ -51,6 +49,5 @@ def using_delete (array)
 end
 
 def using_delete_at (array, integer)
-    using_delete = ["Johnny 5", "R2D2", "Robocop"]
-    using_delete.delete_at(2)
+    array.delete_at (integer)
 end
